@@ -1,6 +1,6 @@
 {
   "name": "gradle-to-js",
-  "version": "0.1.1",
+  "version": "1.0.1",
   "description": "A quick & dirty gradle build file converter to javascript object",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,10 @@
     "javascript",
     "parsing"
   ],
+  "files" : [
+    "lib/",
+    "index.js"
+  ],
   "author": "Karl Lindmark",
   "license": "Apache-2.0",
   "bugs": {
@@ -28,6 +32,7 @@
     "phantomjs": "1.9.20"
   },
   "dependencies": {
-    "bluebird": "3.3.5"
+    "bluebird": "3.3.5",
+    "deep-assign": "2.0.0"
   }
 }
